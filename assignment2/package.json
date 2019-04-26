@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "node-sass": "^4.5.3"
+  },
+  "scripts": {
+    "build-css": "node-sass scss/main.scss css/main.css --include-path scss -w"
+  }
+}
